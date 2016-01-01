@@ -5,7 +5,6 @@ import routes from './routes'
 main();
 
 function main() {
-  const app = document.createElement('div');
-  document.body.appendChild(app);
+  const app = document.getElementById('app');
   render(routes, app);
 }
