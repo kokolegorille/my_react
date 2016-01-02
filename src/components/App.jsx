@@ -1,13 +1,16 @@
 import React from 'react'
 import { IndexLink, Link } from 'react-router'
 
+import activeComponent from 'react-router-active-component'
+var NavItem = activeComponent('li');
+
 export default class App extends React.Component { 
   render() {
     return (
       <div className="container">
         <ul>
-          <li><IndexLink activeClassName="active" to="/">Home</IndexLink></li>
-          <li><Link activeClassName="active" to="/about">About</Link></li>
+          <NavItem to="/" onlyActiveOnIndex>Home</NavItem>
+          <NavItem to="/about">About</NavItem>
         </ul>
         {this.props.children}
       </div>

@@ -5,13 +5,13 @@ const AboutPage = () => (
     <h1>About</h1>
     <p>
     	This application uses the following technologies:
-    	<ul>
-    		<li>React</li>
-    		<li>React Router</li>
-        <li>Babel</li>
-        <li>Webpack</li>    		
-    	</ul>
     </p>
+  	<ul>
+  		<li>React</li>
+  		<li>React Router</li>
+      <li>Babel</li>
+      <li>Webpack</li>    		
+  	</ul>
   </div>  
 ); 
 

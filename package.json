@@ -13,7 +13,8 @@
     "history": "^1.17.0",
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
-    "react-router": "^1.0.3"
+    "react-router": "^1.0.3",
+    "react-router-active-component": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
