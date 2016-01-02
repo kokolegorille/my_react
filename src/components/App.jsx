@@ -1,5 +1,5 @@
 import React from 'react'
-import { IndexLink, Link } from 'react-router'
+//import { IndexLink, Link } from 'react-router'
 
 import activeComponent from 'react-router-active-component'
 var NavItem = activeComponent('li');
