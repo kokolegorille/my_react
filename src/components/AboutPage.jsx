@@ -8,6 +8,7 @@ const AboutPage = () => (
     </p>
   	<ul>
   		<li>React</li>
+      <li>ReactDOM</li>
   		<li>React Router</li>
       <li>Babel</li>
       <li>Webpack</li>    		
