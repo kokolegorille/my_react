@@ -11,7 +11,7 @@ const AboutPage = () => (
       <li>ReactDOM</li>
   		<li>React Router</li>
       <li>Babel</li>
-      <li>Webpack</li>    		
+      <li>Webpack</li>
   	</ul>
   </div>  
 ); 

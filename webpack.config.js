@@ -1,7 +1,7 @@
 var path = require('path');
 
 var ROOT_PATH = path.resolve(__dirname);
-var SRC_PATH = path.resolve(ROOT_PATH, 'src'); 
+var SRC_PATH = path.resolve(ROOT_PATH, 'src');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 
 module.exports = {
@@ -15,15 +15,14 @@ module.exports = {
     path: BUILD_PATH,
     filename: '[name].js'
   },
-  watch: true,
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: "babel",
-        query: { 
-          presets: ['stage-0', 'es2015','react'] 
+        query: {
+          presets: ['es2015', 'react', 'stage-0']
         },
         include: SRC_PATH
       }
