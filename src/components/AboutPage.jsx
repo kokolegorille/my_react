@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const AboutPage = () => (
   <div>
     <h1>About</h1>
     <p>
-    	This application uses the following technologies:
+      This application uses the following technologies:
     </p>
   	<ul>
   		<li>React</li>
