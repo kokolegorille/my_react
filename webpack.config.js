@@ -11,7 +11,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const plugins = [
 	new HtmlWebpackPlugin({
 		filename: 'index.html',
-		template: './build/index.template',
+		template: './src/index.template',
 		inject: 'body'
 	})
 ];
