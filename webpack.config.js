@@ -40,7 +40,7 @@ plugins.push(new Webpack.DefinePlugin({
 
 const config = {
   entry: {
-    bundle: SRC_PATH + '/index'
+    bundle: SRC_PATH + '/js/index'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
