@@ -22,6 +22,14 @@ const prod = process.argv[4] === '--production';
 // Optimization
 // https://github.com/webpack/docs/wiki/optimization
 if(prod) {
+  // production
+  // http://dev.topheman.com/make-your-react-production-minified-version-with-webpack/
+  plugins.push(new Webpack.DefinePlugin({
+    'process.env': {
+      'NODE_ENV': JSON.stringify('production')
+    }
+	}));
+  
 	plugins.push(new Webpack.optimize.UglifyJsPlugin({
 		compress: {
 			warnings: false
