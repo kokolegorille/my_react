@@ -5,7 +5,7 @@ import routes from '../routes';
 
 const Root = () => {
   const history = browserHistory;
-  
+
   return (
   <Router history={history}>{routes}</Router>
 );}

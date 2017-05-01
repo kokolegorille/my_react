@@ -1,7 +1,7 @@
 {
   "name": "my_react",
   "version": "1.0.0",
-  "description": "",
+  "description": "To start your app : npm start",
   "main": "index.js",
   "scripts": {
     "clean-build": "rimraf build",
@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "history": "^4.6.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^3.0.2"
