@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
 import NavBar from './nav_bar';
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="header">
         <NavBar />
         {this.props.children}
       </div>
@@ -15,7 +14,7 @@ class App extends Component {
 
 export default App;
 
-// import React, { Component } from 'react'
+// import React, { Component } from 'react';
 //
 // import activeComponent from 'react-router-active-component'
 // var NavItem = activeComponent('li');

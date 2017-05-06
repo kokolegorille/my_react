@@ -1,16 +1,30 @@
 import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
   <nav>
     <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
+      <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
+      <li><NavLink to="/about">About</NavLink></li>
     </ul>
   </nav>
 )
 
 export default NavBar;
+
+// import React, { PropTypes } from 'react';
+// import { Link } from 'react-router';
+//
+// const NavBar = () => (
+//   <nav>
+//     <ul>
+//       <li><Link to="/">Home</Link></li>
+//       <li><Link to="/about">About</Link></li>
+//     </ul>
+//   </nav>
+// )
+//
+// export default NavBar;
 
 // import React from 'react';
 //
