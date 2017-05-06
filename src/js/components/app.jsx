@@ -4,7 +4,7 @@ import NavBar from './nav_bar';
 class App extends Component {
   render() {
     return (
-      <div className="header">
+      <div className="container">
         <NavBar />
         {this.props.children}
       </div>

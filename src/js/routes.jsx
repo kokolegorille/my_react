@@ -7,15 +7,13 @@ import AboutPage from './components/about_page';
 import NoMatchPage from './components/no_match_page';
 
 export default (
-  <div className="container">
-    <App>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={AboutPage} />
-        <Route path="*" component={NoMatchPage} />
-      </Switch>
-    </App>
-  </div>
+  <App>
+    <Switch>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="*" component={NoMatchPage} />
+    </Switch>
+  </App>
 );
 
 // import React from 'react';
